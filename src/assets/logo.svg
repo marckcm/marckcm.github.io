@@ -1,0 +1,27 @@
+
+<svg height="50" width="70" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad1">
+        <stop offset="0%" stop-color="yellow" />
+        <stop offset="100%" stop-color="red" />
+        </linearGradient>
+    </defs>
+    <ellipse cx="30" cy="20" rx="30" ry="16" fill="grad1" />
+    <!-- <image x="-120" y="0" width="300" height="50" href="./src/assets/f01.png" /> -->
+    <text x="10" y="26" fill="#fff">MCM</text>
+    Sorry, your browser does not support inline SVG.  
+</svg>
+
+
+
+<!-- <svg height="130" width="500">
+    <defs>
+        <linearGradient id="grad1">
+        <stop offset="0%" stop-color="yellow" />
+        <stop offset="100%" stop-color="red" />
+        </linearGradient>
+    </defs>
+    <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">MCM</text>
+    Sorry, your browser does not support inline SVG.
+</svg> -->
