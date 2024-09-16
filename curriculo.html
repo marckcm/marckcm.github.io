@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currículo</title>
+        
+        <!-- Estitlo -->
+        <link rel="stylesheet" href="src/components/extends.css">
+        
+        <!-- api externa -->
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link 
+            rel="stylesheet" 
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+        />
+    
+    </head>
+
+    <body class="curriculo-alingn">
+        <section class="container-curriculo" id="content">
+                    
+            <div class="titulo" >            
+                <h1>Currículo Vitae</h1>
+            </div>
+
+            <div class="dados_pes">
+                <h2 class="title_cur">Marcelo de Castro Moreira</h2>
+                <p><strong>Endereço:</strong> Bairro: Santos Anjos. Rua: Alfredo Rodrigues da Costa, 105. Brasil</p>
+                <p><strong>CEP:</strong> Cep: 36062350, Juiz de Fora - MG</p>
+                <p><strong>Email:</strong> marckcm@email.com</p>
+                <p><strong>Telefone:</strong> (32) 9156-5473</p>
+            </div>
+
+            <div class="objetivo">
+                <h2 class="title_cur">Objetivo:</h2>
+                <p>Desenvolver habilidades e conhecimentos em tecnologia para atuar na area de desenvolvimento</p>
+            </div>
+
+            <div class="form_academica">
+            <h2 class="title_cur" >Formação Acadêmica:</h2>
+            <ul>
+                <li>
+                    <p>
+                        6º Período de Administração de Empresas (trancada) - Universidade Salgado de Oliveira (Universo)
+                    </p>
+                </li>
+                <li>
+                    Cursando Desenvolvimento de Sistemas na Proz Educação.
+                </li>
+            </ul>
+            </div>
+
+            <div class="ex_prof">
+                <h2 class="title_cur">Experiência Profissional: </h2>            
+                <ul class="ul-item">
+                    <li><strong>Ariadina Lima Avelar - “Augustus Distribuidora”</strong> (2015 - 2022)</li>
+                    <li><strong>JM Locação e Logística de Juiz de Fora Ltda EPP.</strong> (09/2014 - 11/2014)</li>
+                    <li><strong>Ima Indústria e Comércio de Madeira ltda.</strong> (01/2012 a 01/2014)</li>
+                    <li><strong>ArcelorMittal BioFloresta.</strong> (08/2010 a 12/2011)</li>
+                    <li><strong>Sinditac-JF</strong> (12/2009 a 05/2010)</li>
+                    <li><strong>PRCL 2006 Confecções Ltda. (HIGH VISION)</strong> (03/2009 a 10/2009)</li>
+                    <li><strong>Quizbatata Indústria e Comércio de Alimentos Ltda.</strong> (09/2003 a 01/2009)</li>
+                    <li><strong>Ariadina Lima Avelar - “Augustus Distribuidora”</strong> (06/2000 a 08/2003)</li>
+                    <li><strong>Gelre trabalho temporário: passei 3 meses na transportadora TPS (transportadora de produtos siderúrgicos).</strong> (06/2000 a 08/2003)</li>
+                </ul>
+            </div>
+
+            <div class="qualificacoes">
+                <h2 class="title_cur">Qualificações:</h2>
+                <ul class="ul-item">
+                    <li><strong>Curso de Python</strong> -  (2022 - 2022)</li>
+                    <li><strong>Participação da Feira do Empreendedor feita pela Universo.</strong> -  (2022 - 2022)</li>
+                    <li><strong>Curso de 5S</strong> -  (2022 - 2022)</li>
+                </ul>
+            </div>
+
+            <div class="conecimento">
+                <h2 class="title_cur">Conhecimentos em Informática: </h2>
+                <ul class="ul-item">
+                    <li><strong>Python</strong></li>
+                    <li><strong>HTML, CSS</strong> -  (2022 - 2022)</li>
+                    <li><strong>Pacote Office</strong> -  (2022 - 2022)</li>
+                    <li><strong>Manutenção de sistema vírus, problemas em softwares, formatação criação de partições, backups.
+                        Conhecimento e manutenção em hardwares.</strong></li>
+                </ul>
+            </div>
+        </section>
+
+        <div id="btn-pdf" class="btn-pdf">            
+            <button onclick="generatePDF()" class="btn btn-primary" >Currículo em PDF</button>
+        </div>
+
+        <!-- Adicione as bibliotecas jsPDF e html2canvas -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+        <script src="src/scripts/index.js"></script>    
+
+    </body>
+
+</html>
