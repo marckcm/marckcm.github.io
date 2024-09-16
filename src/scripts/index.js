@@ -44,9 +44,3 @@ async function generatePDF() {
       pdf.save('curriculo.pdf'); // Salva o PDF com o nome "curriculo.pdf"
   });
 }
-
-$(document).ready(function(){
-  $('.btn').on('click', function () {
-      $('.btn').find('i').toggleClass('fa-x')
-  });
-});
