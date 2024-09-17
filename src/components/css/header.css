@@ -9,13 +9,18 @@ header {
 
 header .header_left {
     max-width: 62rem;
-    flex: 1;    
+    flex: 1;
+}
+
+header .header_left a {    
+    margin: 0 30px 0 0; 
+
 }
 
 header .header_left p {
     margin-top: 2rem;
     margin-bottom: 4rem;    
-    max-width: 50rem;
+    max-width: 48rem;
 }
 
 header .header_higth .header_image {
