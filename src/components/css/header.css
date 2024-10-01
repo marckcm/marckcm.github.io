@@ -13,8 +13,7 @@ header .header_left {
 }
 
 header .header_left a {    
-    margin: 0 30px 0 0; 
-
+    margin: 0 30px 0 0;
 }
 
 header .header_left p {
@@ -39,7 +38,6 @@ header .header_higth .header_image::after {
     right: -1.5rem;
     border-radius: 0.5rem;
     z-index: -1;
-
 }
 
 header .header_higth .header_image .marcelo {
@@ -52,6 +50,8 @@ header .header_higth .header_image .background {
     position: absolute;
     top:-4rem;
     right: -2.5rem;
+    /* width: 50rem; */
+    /* height: 50rem; */
     z-index: -1;
 }
 
