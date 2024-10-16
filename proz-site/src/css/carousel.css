@@ -97,8 +97,8 @@ body {
 .video-background-holder {
   position: relative;
   background-color: black;
-  height: calc(100vh - 72px);
-  min-height: 25rem;
+  height: calc(100vh - 20px);
+  min-height: 39rem;
   width: 100%;
   overflow: hidden;
 }

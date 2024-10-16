@@ -73,3 +73,19 @@
       font-size: 3.5rem;
     }
   }
+
+  @media only screen and (max-width: 1130px) {
+    .figure img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .space {
+      margin-bottom: 2rem;
+    }
+
+    .video{
+      width:400px;
+      height:300px;
+    }
+  }
