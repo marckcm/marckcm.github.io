@@ -34,8 +34,8 @@ header .header_higth .header_image::after {
     height: 100%;
     border: 1px solid var(--tertiary-color);
     position: absolute;
-    top: -1.5rem;
-    right: -1.5rem;
+    top: 0rem;
+    right: 0rem;
     border-radius: 0.5rem;
     z-index: -1;
 }
