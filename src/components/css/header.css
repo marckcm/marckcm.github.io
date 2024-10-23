@@ -24,7 +24,8 @@ header .header_left p {
 
 header .header_higth .header_image {
     position: relative;
-    line-height: 0;    
+    line-height: -10px;
+    background-color: white;    
 }
 
 header .header_higth .header_image::after {
@@ -48,9 +49,9 @@ header .header_higth .header_image .marcelo {
 
 header .header_higth .header_image .background {
     position: absolute;
-    top:-4rem;
-    right: -2.5rem;
-    /* width: 50rem; */
+    top:-2rem;
+    right: -8.5rem;
+    width: 50rem;
     /* height: 50rem; */
     z-index: -1;
 }
@@ -63,6 +64,11 @@ header .header_higth .header_image .background {
     header .header_left p {
         margin: 2rem auto 4rem;
     }
+    header .header_higth .header_image .background {
+        top:-2rem;
+        right: -6.5rem;
+        width: 26rem;
+    }    
 }
 
 

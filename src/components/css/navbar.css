@@ -7,6 +7,11 @@
     background-color: var(--white);
 }
 
+.navbar .logo{
+    display: flex;
+    width: 8rem;
+}
+
 .navbar .navbar_content {
     display: flex;
     padding: 3rem 4rem 1rem;
