@@ -12,9 +12,9 @@ header .header_left {
     flex: 1;
 }
 
-header .header_left a {    
+/* header .header_left a {    
     margin: 30px 30px 0 0;
-}
+} */
 
 header .header_left p {
     margin-top: 2rem;
