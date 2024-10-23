@@ -1,0 +1,104 @@
+#home {
+    display: flex;
+    min-height: (calc(100vh - 94px));
+    position: relative;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 2rem;
+}
+
+#cta .title{
+    font-size: 64px;
+    color: var(--color-4);
+}
+
+#cta .title span {    
+    color: var(--color-6);
+}
+
+#cta .description {
+    font-size: 19,2px;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    color: var(--color-4);
+}
+
+#fone_button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: var(--color-5);
+    padding: 0.5rem 0.875rem;
+    font-weight: 500;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+#fone_button button{
+    box-shadow: none;
+}
+
+#banner {
+    display: flex;
+    /* fica em cima da imagem */
+    align-items: start;
+    /* para ficar na direira */
+    justify-content: end;
+    width: 70%;
+    /* z index posiciona o layout em cima ou em baixo */
+    z-index: 2;
+}
+
+#banner img {
+    height: 100%;
+    width: fit-content;
+}
+
+.shape{
+    background-color: var(--color-2);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 30% 0 20%;
+    top: 0;
+    right: 0;
+    /* z index posiciona o layout em cima ou em baixo */
+    z-index: 1;
+}
+
+@media screen and (max-width:1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0;
+    }
+    
+    #banner,
+    #banner img,
+    #home .shape {
+        display: none;
+    }
+    
+    #cta {
+        width: 100%;
+        align-items: center;
+        text-align: center;        
+    }
+}
+
+@media screen and (max-width:450px) {
+    #fone_button button {
+        display: none;
+    }
+}

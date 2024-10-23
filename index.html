@@ -8,7 +8,6 @@
         <!-- Titulo -->
         <title>Portifolio Marcelo</title>
         <!-- Css -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="src/components/extends.css">
         <!-- Fontes -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -67,8 +66,47 @@
                     tecnológicas que resolvem problemas reais e que 
                     agregam valor aos usuários.
                 </p>
-                <div class="d-flex">
-                    <a href="hotcurso-site/index.html" class="btn btn-primary" target="_blank"> Saiba Mais!</a>
+                <div class="d-flex justify-content-around">
+                    <!-- area teste -->
+                    
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Saiba Mais
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title h2" id="staticBackdropLabel">Projetos Realizados</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body row">
+                                        <!-- card 01 -->
+                                    <div class="card m-3" style="width: 22rem;">
+                                            <img class="card-img-top" src="./src/assets/site01.webp" alt="Imagem de capa do card">
+                                            <div class="card-body">
+                                                <h2 class="card-title">HotCursos</h2>
+                                                <p class="card-text">Site em desenvolvimento contruido para a venda de curos feito com bootstrap</p>
+                                                <a href="./hotcurso-site/index.html" class="btn btn-primary">Visitar</a>
+                                            </div>
+                                    </div>
+                                        <!-- card 02 -->
+                                    <div class="card m-3" style="width: 22rem;">
+                                            <img class="card-img-top" src="./src/assets/site02.webp" alt="Imagem de capa do card">
+                                            <div class="card-body">
+                                                <h2 class="card-title">LANCHE</h2>
+                                                <p class="card-text">Site em desenvolvimento contruido para a venda de produtos alimentícios</p>
+                                                <a href="./food_comerce/index.html" class="btn btn-primary">Visitar</a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- area teste -->
+                    <!-- <a href="hotcurso-site/index.html" class="btn btn-primary" target="_blank"> Saiba Mais!</a> -->
                     <a href="curriculo.html" class="btn btn-primary" target="_blank"> Curriculo </a>
                 </div>
             </div>
@@ -104,7 +142,7 @@
                 </h3>
                 <p>
                     Olá, eu sou Marcelo c. Moreira, um desenvolvedor fullstack apaixonado por tecnologia 
-                    e soluções criativas. Com mais de 1 anos de experiência em desenvolvimento web, 
+                    e soluções criativas. Com mais de 1 ano de experiência em desenvolvimento web, 
                     tenho trabalhado com diversas tecnologias e plataformas para criar soluções robustas 
                     e escaláveis que atendam às necessidades dos clientes.
                 </p>
@@ -257,10 +295,12 @@
         </footer>
 
         <!-- scrips -->
-        <script src="src/scripts/index.js"></script>    
+        <script src="src/scripts/index.js"></script>
+        <!-- faz o botão abrir     -->
+        <script src="./src/scripts/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-        
+
     </body>
 
 </html>
